@@ -13,10 +13,9 @@
     height: 600px;
     background-position: top;
 }
-
 .header h1{
    padding-top: 150px;
-   font-size: 80px;
+   font-size: 70px;
    font-weight: 400;
    color: whitesmoke;
    padding-bottom: 30px;
@@ -29,10 +28,56 @@
 }
 .button{
     text-decoration: none;
-    background-image: linear-gradient(white,rgb(55, 55, 54));
+    background-image: linear-gradient(rgb(97, 190, 97),#9bd49b);
     color:black;
     padding:10px 20px;
     font-size: 18px;
     font-weight: 400;
     border-radius: 10px;
+}
+.donateToday{
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.donateToday h1{
+    padding-top: 50px;
+    font-size: 50px;
+    
+    padding-bottom: 30px;
+}
+.donateToday h4{
+    font-size: 20px;
+    font-weight: 300;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+}
+.taka{
+    display:flex;
+    padding:30px 350px;
+}
+.takaAmount{
+    width:20%;
+    background-color:aliceblue;
+    padding:40px 10px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    border-radius: 5px;
+}
+#specialTaka{
+    background-color: #9bd49b;
+    border:3px solid green;
+}
+
+.donateToday input{
+    border: none; 
+    border-bottom:2px solid rgb(221, 220, 220);
+    padding:4px 270px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-bottom: 35px;
+    outline: none;
+}
+.donateToday input::placeholder {
+    color:rgb(199, 197, 197);
 }
