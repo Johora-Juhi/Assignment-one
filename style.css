@@ -154,7 +154,10 @@
 .halfWidth img {
     width: 95%;
 }
-
+.survive {
+    display: flex;
+    padding: 100px 50px;
+}
 .headOne {
     font-size: 40px;
     letter-spacing: 2px;
@@ -197,6 +200,7 @@
     font-family: 'Lobster Two', cursive;
     letter-spacing: 1.5px;
 }
+
 .special h5 {
     text-align: right;
     color: #fff;
@@ -209,114 +213,53 @@
     margin-top: 70px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.getUpdate {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
 
 .emailSection {
-    text-align: center;
-    padding-top: 200px;
-    padding-bottom: 200px;
+
+    background-color: #d5e6de;
+    padding: 80px 180px;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
-.emailDiv {
-    padding: 0px 300px;
-}
-
-.form {
+.inputB {
     display: flex;
-    background-color: #9bd49b;
-    /* width: 700px;
-    margin: 0 auto; */
-    padding: 100px 160px;
 }
 
-.email1 {
-    width: 70%;
-}
-
-.email2 {
-    width: 30%;
-}
-
-.email1 input {
+.widthOne input {
     width: 100%;
-    padding: 15px 15px;
-    background-color: azure;
+    padding: 15px 20px;
+    border-radius: 8px 0 0 8px;
     border: none;
     outline: none;
+    font-size: 18px;
+    font-weight: 500;
 }
 
-.email2 input {
+.widthTwo input {
     width: 100%;
-    padding: 15px 10px;
-    cursor: pointer;
-    background-color: tomato;
+    padding: 15px 50px;
+    border-radius: 0 8px 8px 0;
     border: none;
+    background-color: #9bd49b;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+
 }
 
+.widthOne {
+    width: 60%;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/**************************
-        Footer
-**************************/
+.widthTwo {
+    width: 40%;
+}
 
 footer {
     background-color: black;
