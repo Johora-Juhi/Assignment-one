@@ -136,20 +136,196 @@
     letter-spacing: 1px;
     padding: 15px 0px;
 }
-footer{
+.lives{
+    display:flex;
+    padding:100px 50px;
+}
+.halfWidth{
+    width:40%;
+    margin-left: 5%;
+    margin-right:5%;
+}
+.halfWidth img{
+    width:95%;
+}
+#headOne{
+    font-size: 40px;
+    letter-spacing: 2px;
+    padding-bottom: 50px;
+}
+#headFour{
+    font-size: 20px;
+    font-weight: 300;
+    padding-bottom: 50px;
+    letter-spacing: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.emailSection {
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .juu{
+     padding: 0px 300px; 
+} 
+
+.form {
+    display: flex;
+    background-color: #9bd49b;
+    /* width: 700px;
+    margin: 0 auto; */
+    padding: 100px 160px;
+}
+
+.email1{
+    width: 70%;
+}
+.email2{
+    width: 30%;
+}
+
+.email1 input{
+    width: 100%;
+    padding: 15px 15px;
+    background-color: azure;
+    border: none;
+    outline: none;
+}
+
+.email2 input{
+    width: 100%;
+    padding: 15px 10px;
+    cursor: pointer;
+    background-color: tomato;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
     background-color: black;
     padding-top: 50px;
     padding-bottom: 50px;
     text-align: center;
 }
-footer h1{
-    color:#9bd49b;
+
+footer h1 {
+    color: #9bd49b;
     letter-spacing: 1px;
     font-family: 'Lobster Two', cursive;
     font-size: 40px;
 }
-footer p{
-    color:rgb(162, 160, 160);
+
+footer p {
+    color: rgb(162, 160, 160);
     padding-top: 20px;
     letter-spacing: 1px;
     font-size: 14px;
