@@ -148,12 +148,12 @@
 .halfWidth img{
     width:95%;
 }
-#headOne{
+.headOne{
     font-size: 40px;
     letter-spacing: 2px;
     padding-bottom: 50px;
 }
-#headFour{
+.headFour{
     font-size: 20px;
     font-weight: 300;
     padding-bottom: 50px;
